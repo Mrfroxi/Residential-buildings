@@ -36,7 +36,7 @@ img{vertical-align: top;}
 
 h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 /*--------------------*/
-.wrapper img{
+.fon{
     max-width: 1920px;
     width:100%;
     height: 840px;
@@ -119,5 +119,108 @@ font-size: 14px;
 line-height: 16px;
 letter-spacing: 0.05em;
 
+color: #FFFFFF;
+}
+.first-screen{
+    margin: 0 auto;
+    max-width: 590px;
+    height: 470px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.art_div{
+    margin-top:23%;
+}
+.first-screen article{
+margin: 0 auto;
+font-family:'Playfair Display', serif;;
+font-style: normal;
+font-weight: bold;
+font-size: 48px;
+line-height: 64px;
+text-align: center;
+color: #D4C17F;
+}
+.first-screen a{
+    max-width: 40px;
+    width: 100%;
+    height: 40px;
+    margin: 0px 46% 10% 47%;
+}
+a img{
+    object-fit: cover;
+    width: 100%;
+
+}
+.fs_info{
+    max-width: 590px;
+    width: 100%;
+    height: 22px;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+}
+.fn_location{
+    max-width:250px;
+    width: 100%;
+    height: 22px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.fn_loc_log{
+    max-width: 22px;
+    width: 100%;
+    height: 22px;
+    margin-left: 13%;
+}
+.loc_fullname{
+    max-width: 220px;
+    width: 100%;
+    height:27px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.loc_fullname div{
+font-family: 'Raleway', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+text-align: center;
+color: #FFFFFF;
+}
+.fn_telephone{
+    max-width:250px;
+    width: 100%;
+    height: 22px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.fn_tel_log{
+    max-width: 22px;
+    width: 100%;
+    height: 22px;
+    margin-left: 23%;
+}
+.mob_fullname{
+    max-width: 220px;
+    width: 100%;
+    height:27px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.mob_fullname div{
+font-family: 'Raleway', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+text-align: center;
 color: #FFFFFF;
 }
