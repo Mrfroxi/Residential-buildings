@@ -332,6 +332,8 @@ margin-left:5%;
 .img_div_flat{
     width: 98%;
     height: 308px;
+    position: relative;
+    z-index: 2;
 }
 .img_div_flat img{
     object-fit: cover;
@@ -342,9 +344,9 @@ margin-left:5%;
 }
 .name_flat{
     font-family: 'Raleway', sans-serif;
-    position: relative;
+    position: relative; 
     z-index: 4;
-    left: 8%;
+    left: 3%;
     top: 68%;
 font-style: normal;
 font-weight: normal;
